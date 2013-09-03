@@ -9,7 +9,7 @@ Simple dynamic language interpreter written in Java
 
 ### 1 - Point class with some methods
 
-	'''
+	```
 	class point
 		def new(x,y)
 			this.x = x
@@ -37,18 +37,18 @@ Simple dynamic language interpreter written in Java
 	puts("distance from " + p1.str() + " to " + p2.str() + " is " + p1.distanceTo(p2))
 	p3 = p1 + p2
 	puts(p1.str() + " + " + p2.str() + " = " + p3.str())
-	'''
+	```
 
 output:
 
-	'''
+	```
 	distance from (5;3) to (10;5) is 5.385164807134504
 	(5;3) + (10;5) = (15;8)
-	'''
+	```
   
 ### 2 - Bubble sort function
 
-	'''
+	```
 	def bubbleSort(list)
 		for i in range(0, size(list)-1)
 			iMin = i
@@ -64,19 +64,19 @@ output:
 	a=[1,4,2,5,3,45,42,3,2,65,23,65,89,6,454,689,4,4,2,76,4,676,9,6,5,76,34,4,2,76,23]
 	bubbleSort(a)
 	puts(a)
-	'''
+	```
 
 
 output:
 
-	'''
+	```
 	[1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 9, 23, 23, 34, 42, 45, 65, 65, 76, 76, 76, 89, 454, 676, 689]
-	'''
+	```
 
 
 ### 3 - Count occurences in list
 
-	'''
+	```
 	def count(element, list)
 	  count = 0
 	  for(e in list)
@@ -89,11 +89,11 @@ output:
 
 	list = [ 1, 2, 4, 7, 1, 2, 4, 7, 1, 2, 4, 7 ]
 	puts(count(7, list))
-	'''
+	```
   
 output:
 
-	'''
+	```
 	3
-	'''
+	```
 
