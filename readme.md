@@ -1,13 +1,13 @@
 Simple dynamic language interpreter written in Java
 
 
-# usage:
+## Usage:
 
 > java -jar lang.jar <path to source file>
 
-# examples:
+## Examples:
 
-## 1 - Point class with some methods
+### 1 - Point class with some methods
 
   class point
       def new(x,y)
@@ -42,7 +42,7 @@ output:
   distance from (5;3) to (10;5) is 5.385164807134504
   (5;3) + (10;5) = (15;8)
   
-## 2 - Bubble sort function
+### 2 - Bubble sort function
 
   def bubbleSort(list)
       for i in range(0, size(list)-1)
@@ -65,7 +65,7 @@ output:
   [1, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 5, 5, 6, 6, 9, 23, 23, 34, 42, 45, 65, 65, 76, 76, 76, 89, 454, 676, 689]
 
 
-## 3 - Count occurences in list
+### 3 - Count occurences in list
 
   def count(element, list)
     count = 0
