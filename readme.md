@@ -3,7 +3,7 @@ Simple dynamic language interpreter written in Java
 
 ## Usage:
 
-> java -jar lang.jar <path to source file>
+> java -jar lang.jar &lt;path to source file&gt;
 
 ## Examples:
 
